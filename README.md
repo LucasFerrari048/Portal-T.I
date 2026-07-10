@@ -3,8 +3,7 @@
 Site institucional simples para divulgação dos cursos, professores, projetos
 e notícias da Área de Tecnologia da Informação do Campus Salgueiro.
 
-Projeto acadêmico feito apenas com **HTML, CSS e JavaScript**, sem
-frameworks e sem back-end.
+Projeto acadêmico feito apenas com **HTML, CSS e JavaScript**.
 
 ## Desenvolvedor
 
