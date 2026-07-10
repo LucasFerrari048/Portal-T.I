@@ -13,8 +13,7 @@ Lucas Ferreira da Costa
 ## Conceito de design
 
 Design simples, seguindo as cores institucionais (verde), com foco em
-legibilidade e organização do conteúdo — sem efeitos visuais complexos, para
-deixar claro como cada requisito da atividade foi resolvido.
+legibilidade e organização do conteúdo.
 
 ## Link do Github
 https://github.com/LucasFerrari048/Portal-T.I
