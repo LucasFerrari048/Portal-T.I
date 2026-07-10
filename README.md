@@ -1,4 +1,4 @@
-# Portal da Área de TI — IF Sertão PE, Campus Salgueiro (versão simples)
+# Portal da Área de TI — IF Sertão PE, Campus Salgueiro
 
 Site institucional simples para divulgação dos cursos, professores, projetos
 e notícias da Área de Tecnologia da Informação do Campus Salgueiro.
