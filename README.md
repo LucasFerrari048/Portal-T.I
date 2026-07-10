@@ -18,3 +18,6 @@ deixar claro como cada requisito da atividade foi resolvido.
 
 ## Link do Github
 https://github.com/LucasFerrari048/Portal-T.I
+
+## Link do Site Online (Vercel):
+https://portal-ti-sandy.vercel.app/
