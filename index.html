@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Área de TI — IF Sertão PE | Campus Salgueiro</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="cabecalho">
+    <div class="container">
+      <a href="#topo" class="logo">
+        <span class="logo-icone">TI</span>
+        IF Sertão PE — Campus Salgueiro
+      </a>
+
+      <nav class="menu" id="menu">
+        <a href="#sobre">Cursos</a>
+        <a href="#professores">Professores</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#noticias">Notícias</a>
+        <a href="#semestres">Turmas</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <button class="botao-menu" id="botao-menu" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="topo">
+    <section class="hero">
+      <div class="container">
+        <div class="hero-texto">
+          <h1>Área de Tecnologia da Informação</h1>
+          <p>
+            Conheça os cursos, professores e projetos da Área de TI do
+            Campus Salgueiro — formando profissionais para o mercado de
+            tecnologia com ensino técnico e superior de qualidade.
+          </p>
+          <a href="#sobre" class="botao">Conhecer os cursos</a>
+        </div>
+
+        <div class="hero-destaque">
+          <h2>2 cursos disponíveis</h2>
+          <p>Técnico em Informática e Tecnologia em Sistemas para Internet</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre">
+      <div class="container">
+        <h2 class="titulo-secao">Nossos Cursos</h2>
+        <p class="subtitulo-secao">Formação técnica e superior na área de tecnologia.</p>
+
+        <div class="grid-cursos">
+          <div class="card">
+            <h3>Técnico em Informática</h3>
+            <p>
+              Curso técnico com duração de 3 anos, que forma profissionais em
+              montagem e manutenção de computadores, redes e programação.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Tecnologia em Sistemas para Internet</h3>
+            <p>
+              Curso superior de tecnologia com duração de 6 períodos, voltado
+              ao desenvolvimento de sistemas web, bancos de dados e redes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="professores">
+      <div class="container">
+        <h2 class="titulo-secao">Professores</h2>
+        <p class="subtitulo-secao">Corpo docente da Área de TI.</p>
+
+        <div class="campo-busca">
+          <input type="text" id="busca-professor" placeholder="Buscar professor por nome ou disciplina..." />
+        </div>
+
+        <div class="grid-professores">
+
+          <div class="card-professor">
+            <div class="avatar">AC</div>
+            <h3>Ana Costa</h3>
+            <p class="formacao">Doutora em Ciência da Computação</p>
+            <p class="disciplinas">Algoritmos e Programação Orientada a Objetos</p>
+            <a href="#" target="_blank" rel="noopener">Currículo Lattes</a>
+          </div>
+
+          <div class="card-professor">
+            <div class="avatar">BR</div>
+            <h3>Bruno Ramos</h3>
+            <p class="formacao">Mestre em Redes de Computadores</p>
+            <p class="disciplinas">Redes de Computadores e Segurança da Informação</p>
+            <a href="#" target="_blank" rel="noopener">Currículo Lattes</a>
+          </div>
+
+          <div class="card-professor">
+            <div class="avatar">CS</div>
+            <h3>Camila Souza</h3>
+            <p class="formacao">Doutora em Engenharia de Software</p>
+            <p class="disciplinas">Banco de Dados e Desenvolvimento Web</p>
+            <a href="#" target="_blank" rel="noopener">Currículo Lattes</a>
+          </div>
+
+          <div class="card-professor">
+            <div class="avatar">DM</div>
+            <h3>Daniel Mendes</h3>
+            <p class="formacao">Mestre em Sistemas de Informação</p>
+            <p class="disciplinas">Sistemas para Internet e Front-end</p>
+            <a href="#" target="_blank" rel="noopener">Currículo Lattes</a>
+          </div>
+
+          <div class="card-professor">
+            <div class="avatar">FL</div>
+            <h3>Fernanda Lima</h3>
+            <p class="formacao">Doutora em Inteligência Artificial</p>
+            <p class="disciplinas">Inteligência Artificial e Matemática Computacional</p>
+            <a href="#" target="_blank" rel="noopener">Currículo Lattes</a>
+          </div>
+
+          <div class="card-professor">
+            <div class="avatar">RP</div>
+            <h3>Rafael Pereira</h3>
+            <p class="formacao">Mestre em Educação Profissional e Tecnológica</p>
+            <p class="disciplinas">Lógica de Programação e Robótica Educacional</p>
+            <a href="#" target="_blank" rel="noopener">Currículo Lattes</a>
+          </div>
+
+        </div>
+
+        <p class="mensagem-vazia" id="sem-resultado">Nenhum professor encontrado.</p>
+      </div>
+    </section>
+
+    <section id="projetos">
+      <div class="container">
+        <h2 class="titulo-secao">Projetos</h2>
+        <p class="subtitulo-secao">Projetos de extensão e pesquisa da Área de TI.</p>
+
+        <div class="grid-projetos">
+          <div class="card-projeto">
+            <h3>OBI</h3>
+            <p>Treinamento de estudantes para a Olimpíada Brasileira de Informática.</p>
+          </div>
+
+          <div class="card-projeto">
+            <h3>Robótica</h3>
+            <p>Projetos de robótica educacional e competitiva.</p>
+          </div>
+
+          <div class="card-projeto">
+            <h3>Fábrica de Software</h3>
+            <p>Desenvolvimento de sistemas reais para o campus e parceiros.</p>
+          </div>
+
+          <div class="card-projeto">
+            <h3>Pesquisa em IA</h3>
+            <p>Estudo e pesquisa aplicada em inteligência artificial.</p>
+          </div>
+
+          <div class="card-projeto">
+            <h3>Outros</h3>
+            <p>Monitorias, grupos de estudo e hackathons internos.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="noticias">
+      <div class="container">
+        <h2 class="titulo-secao">Notícias</h2>
+        <p class="subtitulo-secao">Cadastre uma notícia e veja ela aparecer na lista ao lado.</p>
+
+        <div class="layout-noticias">
+          <form class="form-noticia" id="form-noticia">
+            <div class="grupo-campo">
+              <label for="noticia-titulo">Título</label>
+              <input type="text" id="noticia-titulo" placeholder="Ex: Inscrições abertas para a OBI" />
+              <span class="erro-campo">Preencha o título da notícia.</span>
+            </div>
+
+            <div class="grupo-campo">
+              <label for="noticia-resumo">Resumo</label>
+              <textarea id="noticia-resumo" placeholder="Escreva um resumo da notícia..."></textarea>
+              <span class="erro-campo">Preencha o resumo da notícia.</span>
+            </div>
+
+            <button type="submit" class="botao">Adicionar notícia</button>
+          </form>
+
+          <div class="lista-noticias" id="lista-noticias"></div>
+        </div>
+
+        <p class="sem-noticias" id="sem-noticias">Nenhuma notícia cadastrada ainda.</p>
+      </div>
+    </section>
+
+    <section id="semestres">
+      <div class="container">
+        <h2 class="titulo-secao">Semestres Ativos</h2>
+        <p class="subtitulo-secao">Turmas em funcionamento em cada curso.</p>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Curso</th>
+              <th>Turmas</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Técnico em Informática</td>
+              <td>1º, 2º e 3º ano</td>
+            </tr>
+            <tr>
+              <td>Sistemas para Internet</td>
+              <td>1º a 6º período</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="contato">
+      <div class="container layout-contato">
+
+        <div class="info-contato">
+          <h2 class="titulo-secao">Contato</h2>
+          <ul>
+            <li><strong>Endereço</strong> Rodovia BR-232, s/n — Salgueiro/PE</li>
+            <li><strong>Telefone</strong> (87) 3831-0000</li>
+            <li><strong>E-mail</strong> ti.salgueiro@ifsertaope.edu.br</li>
+          </ul>
+        </div>
+
+        <form class="form-contato" id="form-contato">
+          <p class="mensagem-sucesso" id="mensagem-sucesso"></p>
+
+          <div class="grupo-campo">
+            <label for="contato-nome">Nome</label>
+            <input type="text" id="contato-nome" placeholder="Seu nome completo" />
+            <span class="erro-campo">Digite seu nome completo (mín. 3 letras).</span>
+          </div>
+
+          <div class="grupo-campo">
+            <label for="contato-email">E-mail</label>
+            <input type="email" id="contato-email" placeholder="seu@email.com" />
+            <span class="erro-campo">Digite um e-mail válido.</span>
+          </div>
+
+          <div class="grupo-campo">
+            <label for="contato-assunto">Assunto</label>
+            <input type="text" id="contato-assunto" placeholder="Sobre o que você quer falar?" />
+            <span class="erro-campo">Digite o assunto da mensagem.</span>
+          </div>
+
+          <div class="grupo-campo">
+            <label for="contato-mensagem">Mensagem</label>
+            <textarea id="contato-mensagem" placeholder="Escreva sua mensagem..."></textarea>
+            <span class="erro-campo">A mensagem deve ter pelo menos 10 caracteres.</span>
+          </div>
+
+          <button type="submit" class="botao">Enviar mensagem</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="rodape">
+    <div class="container">
+      <div class="rodape-colunas">
+        <div>
+          <h4>IF Sertão PE — Campus Salgueiro</h4>
+          <p>Rodovia BR-232, s/n — Salgueiro/PE</p>
+          <p>Telefone: (87) 3831-0000</p>
+          <div class="redes-sociais">
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="Facebook">FB</a>
+            <a href="#" aria-label="YouTube">YT</a>
+          </div>
+        </div>
+
+        <div>
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="#sobre">Cursos</a></li>
+            <li><a href="#professores">Professores</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Institucional</h4>
+          <ul>
+            <li><a href="#noticias">Notícias</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="rodape-base">
+        &copy; 2026 Área de TI — IF Sertão PE, Campus Salgueiro. Todos os direitos reservados.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/noticias.js"></script>
+  <script src="js/contato.js"></script>
+  <script src="js/interacoes.js"></script>
+</body>
+</html>
