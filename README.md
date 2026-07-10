@@ -6,7 +6,7 @@ e notícias da Área de Tecnologia da Informação do Campus Salgueiro.
 Projeto acadêmico feito apenas com **HTML, CSS e JavaScript**, sem
 frameworks e sem back-end.
 
-## Desenvolvedores
+## Desenvolvedor
 
 Lucas Ferreira da Costa
 
